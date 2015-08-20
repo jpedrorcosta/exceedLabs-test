@@ -1,0 +1,17 @@
+2) Qual o padrão de projeto utilizado no trecho de código escrito em Java abaixo?
+public class A {
+	public static final A INSTANCE = new A();
+	
+	private A() {	
+	}	
+	public static A getInstance() {
+		return A.INSTANCE;
+	}
+}
+
+Resposta:
+Singleton. Este padrão garante a existência de apenas uma instância de uma classe, mantendo um ponto global de acesso ao seu objeto.
+Quando você necessita de somente uma instância da classe, por exemplo, a conexão com banco de dados, vamos supor que você terá que chamar 
+diversas vezes a conexão com o banco de dados em um código na mesma execução, se você instanciar toda vez a classe de banco, haverá grande 
+perda de desempenho, assim usando o padrão singleton, é garantida que nesta execução será instânciada a classe somente uma vez.
+(Fonte:https://pt.wikipedia.org/wiki/Singleton)

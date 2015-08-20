@@ -1,0 +1,22 @@
+3) Nessa questão você terá que analisar as temperaturas existentes em uma DataSet, procurando pela temperatura mais próxima de 0.
+Implemente o método closestToZero para retornar o valor de temperatura mais próximo de zero. As temperaturas estão no array ts.
+
+Condições: 
+	Se ts estiver vazio, retorne 0.
+	Se dois números estiverem perto de zero, considere o positivo na hora de retornar. (Ex: se ts tem -5 e 5, retorne 5).
+	Temperatura é sempre um valor float entre a faixa: -273 to 5526.
+	ts nunca é null.
+	
+Código de exemplo para validação do método:
+double[] ts = 
+{7,-10,13,8,4,-7.2,-12,-3.7,3.5,-9.6,6.5,-1.7,-6.2,7};
+
+double result = Solution.closestToZero(ts);
+
+System.out.println("Result: " + result);
+
+Resposta:
+
+Instruções de como executar o projeto:
+	- Importe o projeto closestToZero no eclipse como Projeto Java em Existing Projects into Workspace.
+	- Execute a classe Main como Aplicação Java.

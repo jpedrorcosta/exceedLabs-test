@@ -1,0 +1,15 @@
+4) No site inicial do submarino (http://www.submarino.com.br/) há uma seção (widget) indicando o produto mais vendido. 
+Faça uma busca (crawler) que pegue o produto mais vendido e o seu valor. Exibindo o resultado no console.
+(Mostrar como executar o código e explicitar todas as dependências)
+
+Resposta:
+
+Observação: Não consegui exatamente fazer um crawler e também não consegui usar o widget. Mas cheguei na resposta 
+			esperada.
+			
+Instruções de como executar o projeto:
+	- Importe o projeto maisvendidos no eclipse como Projeto Java em Existing Projects into Workspace
+	- Execute a classe Main como Aplicação Java
+
+Dependências:
+	- jsoup-1.7.2.jar : It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods.

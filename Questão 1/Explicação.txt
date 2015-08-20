@@ -1,0 +1,10 @@
+1) Na expressão a seguir, para qualquer valor boolean de b, qual o resultado de c?
+ c = b ? !b : b
+
+ Resposta:
+ Caso b = TRUE:
+	Entra na primeira condição, onde o b será negado, ou seja, retornará FALSE e c será FALSE.
+ Caso b = FALSE:
+	Entra na segunda condição, onde retornará b e c será FALSE.
+
+	Conclui-se que, independente do valor de b, c será FALSE.

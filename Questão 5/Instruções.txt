@@ -1,0 +1,18 @@
+5) Faça um app que receba um usuário e uma senha, realize uma autenticação no Instagram (usando a API do Instagram) e exiba no console: 
+O nome do usuário autenticado
+Quantos seguidores tem 
+Quantos pessoas está seguindo
+
+Resposta:
+
+Instruções de como executar o projeto:
+	- Importe o projeto Teste_Instagram no eclipse com Existing Maven Projects.
+	- Execute a aplicação usando o Tomcat.
+	- Acesse no browser http://localhost:8080/Teste_Instagram/
+
+Dependências:
+	- jInstagram-1.0.8.jar : An unofficial Java library for the Instagram API.
+	- gson-2.2.2.jar : Gson is a Java library that can be used to convert Java Objects into their JSON representation.
+	- commons-lang3-3.1.jar : Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy.
+	- commons-codec-1.8.jar : Codec was formed as an attempt to focus development effort on one definitive implementation of the Base64 encoder
+	- javax.servlet-api-3.0.1.jar : This project is for servlet specification
